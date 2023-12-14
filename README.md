@@ -30,12 +30,24 @@ To be completed:
  - Verify use of DynamoDB with the Terraform provider
  
 To be documented:
+
  - Provision AWS account
    - Setup IAM
+     - Create unprivileged user
+     - Add ssh keys to user account
    - Get instance limit fixed
  - Setup S3 bucket to hold TF state & development assets
+   - Create S3 credential
+   - Configure S3 bucket
+ - Create an AMI instance
+   - Incorporate CVA6 assets
  - Boot F1 instance
-   - Setup CVA6 assets
+   - Simulate the design
+   - Build the hardware design
+   - Generate the AFI
+   - Program the FPGA
+   - Compile the runtime of the design
+   - Bookkeping the AFI
 
 
 [aws-support]: https://console.aws.amazon.com/support/home#/case/create
